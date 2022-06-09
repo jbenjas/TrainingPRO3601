@@ -18,3 +18,5 @@ END;
 daytimeds := PROJECT(crimes.File,reformat(LEFT,COUNTER));
 
 daytimeds;
+
+EXPORT bwr_crimes_date := PROJECT(crimes.File,reformat(LEFT,COUNTER));
